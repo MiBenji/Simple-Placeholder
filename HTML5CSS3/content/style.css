@@ -1,0 +1,127 @@
+﻿/* 
+Style.css
+---------
+ 
+ Ajout police personnalisée
+ */
+
+@font-face {
+    font-family: 'comic_reliefregular';
+    src: url('../font/ComicRelief-webfont.eot');
+    src: url('../font/ComicRelief-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ComicRelief-webfont.woff') format('woff'),
+         url('../font/ComicRelief-webfont.ttf') format('truetype'),
+         url('../font/ComicRelief-webfont.svg#comic_reliefregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Body (fond d'écran image grise) */
+body
+{
+	background : url("../images/fond.jpg");
+	background-color : RGB(255,255,255);
+	font-family: 'comic_reliefregular';
+	margin : 0;
+	position: absolute;
+	top : 0;
+	
+}
+
+nav
+{
+	background : url("../images/fond.png");
+    width: 10%;
+	position: fixed;
+	top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+section
+{
+	float : right;
+	display : inline-block;
+	width: 90%;
+	vertical-align : top;
+}
+
+section header
+{
+	float : right;
+	display : inline-block;
+	width: 89%;
+	vertical-align : top;
+}
+
+article
+{
+	
+	display : inline-block;
+	width: 30%;
+	vertical-align : top;
+	align : right; 
+	padding: 1%;
+}
+
+
+/* Titre */
+H1
+{
+	text-align : right;
+	color: RGB(137,7,7);
+	font-size : 3em;
+}
+
+/* Premier paragraphe après le titre */
+H1 + p
+{
+	text-align : justify;
+	margin : auto;
+	font-style : italic;
+	font-size : 1.5em;
+}
+
+/* DIV photo */
+figure
+{
+	float : right;
+	top : 1%;
+	right : 1%;
+}
+
+/* image CV */
+IMG
+{
+	width:100%;
+	background-color : RGBA(255,255,255,0.7);
+	border-radius: 30px 30px 1px 30px;
+	box-shadow: 1px 1px 10px black;
+}
+
+/* Légende */
+FIGCAPTION
+{
+	text-align : center;
+	font-size : 0.9em;
+}
+
+/* Titres parties */
+H2
+{
+	display : inline-block;
+	width : 100%;
+	text-align : center;
+	color: RGB(137,7,7);
+	border-top : 3px DASHED RGB(137,7,7);
+	border-left : 3px DASHED RGB(137,7,7);
+	margin : auto;
+	
+}
+
+/* Liens hypertexte */
+A
+{
+	color: RGB(137,7,7);
+	text-decoration: none;
+}
