@@ -1,0 +1,1 @@
+Ce projet est une activité de découverte de Git & GitHub qui permet de valider une formation sur le site d'OpenClassRoom
